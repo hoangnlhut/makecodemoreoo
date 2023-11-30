@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeCodeMoreOO", "MakeCodeMoreOO.csproj", "{18EFDF9C-7B82-4780-85D0-8840C0CC335B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCodeMoreOO", "MakeCodeMoreOO.csproj", "{18EFDF9C-7B82-4780-85D0-8840C0CC335B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusDomainLogicSequences", "FocusDomainLogicSequences\FocusDomainLogicSequences.csproj", "{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{18EFDF9C-7B82-4780-85D0-8840C0CC335B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EFDF9C-7B82-4780-85D0-8840C0CC335B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18EFDF9C-7B82-4780-85D0-8840C0CC335B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
