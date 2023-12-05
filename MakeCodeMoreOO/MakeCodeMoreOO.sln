@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCodeMoreOO", "MakeCodeMoreOO.csproj", "{18EFDF9C-7B82-4780-85D0-8840C0CC335B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusDomainLogicSequences", "FocusDomainLogicSequences\FocusDomainLogicSequences.csproj", "{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FocusDomainLogicSequences", "FocusDomainLogicSequences\FocusDomainLogicSequences.csproj", "{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_UntanglingStructurefromOperationsOnBusinessData", "3_UntanglingStructurefromOperationsOnBusinessData\3_UntanglingStructurefromOperationsOnBusinessData.csproj", "{C8FB9A27-AD86-4979-8E7E-D6053904DB16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
