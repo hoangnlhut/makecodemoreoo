@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCodeMoreOO", "MakeCodeM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FocusDomainLogicSequences", "FocusDomainLogicSequences\FocusDomainLogicSequences.csproj", "{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_UntanglingStructurefromOperationsOnBusinessData", "3_UntanglingStructurefromOperationsOnBusinessData\3_UntanglingStructurefromOperationsOnBusinessData.csproj", "{C8FB9A27-AD86-4979-8E7E-D6053904DB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_UntanglingStructurefromOperationsOnBusinessData", "3_UntanglingStructurefromOperationsOnBusinessData\3_UntanglingStructurefromOperationsOnBusinessData.csproj", "{C8FB9A27-AD86-4979-8E7E-D6053904DB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5UsingImmutableObjectsWhenPossible", "5UsingImmutableObjectsWhenPossible\5UsingImmutableObjectsWhenPossible.csproj", "{E4557848-1235-42E3-95F4-FE7331FCBB3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8FB9A27-AD86-4979-8E7E-D6053904DB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
