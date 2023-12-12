@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCodeMoreOO", "MakeCodeMoreOO.csproj", "{18EFDF9C-7B82-4780-85D0-8840C0CC335B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1MakeCodeMoreOO", "1MakeCodeMoreOO.csproj", "{18EFDF9C-7B82-4780-85D0-8840C0CC335B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FocusDomainLogicSequences", "FocusDomainLogicSequences\FocusDomainLogicSequences.csproj", "{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2FocusDomainLogicSequences", "FocusDomainLogicSequences\2FocusDomainLogicSequences.csproj", "{CE2709A0-3EC7-4618-8217-CF4DAEA437A1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_UntanglingStructurefromOperationsOnBusinessData", "3_UntanglingStructurefromOperationsOnBusinessData\3_UntanglingStructurefromOperationsOnBusinessData.csproj", "{C8FB9A27-AD86-4979-8E7E-D6053904DB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5UsingImmutableObjectsWhenPossible", "5UsingImmutableObjectsWhenPossible\5UsingImmutableObjectsWhenPossible.csproj", "{E4557848-1235-42E3-95F4-FE7331FCBB3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5UsingImmutableObjectsWhenPossible", "5UsingImmutableObjectsWhenPossible\5UsingImmutableObjectsWhenPossible.csproj", "{E4557848-1235-42E3-95F4-FE7331FCBB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LeveragingSpecialCaseObjectsToRemoveNullChecks", "..\6LeveragingSpecialCaseObjectsToRemoveNullChecks\6LeveragingSpecialCaseObjectsToRemoveNullChecks.csproj", "{587D2B39-707D-4395-A6B2-4FA665084A57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587D2B39-707D-4395-A6B2-4FA665084A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587D2B39-707D-4395-A6B2-4FA665084A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587D2B39-707D-4395-A6B2-4FA665084A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587D2B39-707D-4395-A6B2-4FA665084A57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
