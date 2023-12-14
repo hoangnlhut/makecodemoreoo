@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6LeveragingSpecialCaseObjectsToRemoveNullChecks.Common
+namespace _8IncreasingFlexibilitybyAvoidingSwitchStatements.Common
 {
     public static class EnumerableExtentions
     {

@@ -1,6 +1,6 @@
-﻿using _6LeveragingSpecialCaseObjectsToRemoveNullChecks.Common;
+﻿using _8IncreasingFlexibilitybyAvoidingSwitchStatements.Common;
 
-namespace _6LeveragingSpecialCaseObjectsToRemoveNullChecks
+namespace _8IncreasingFlexibilitybyAvoidingSwitchStatements
 {
     public class SoldArticle
     {

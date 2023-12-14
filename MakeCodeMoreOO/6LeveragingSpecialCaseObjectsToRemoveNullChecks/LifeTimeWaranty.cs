@@ -1,4 +1,4 @@
-﻿namespace _6LeveragingSpecialCaseObjectsToRemoveNullChecks
+﻿namespace _8IncreasingFlexibilitybyAvoidingSwitchStatements
 {
     public class LifeTimeWaranty : IWarranty
     {

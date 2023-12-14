@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_UntanglingStructurefromOp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5UsingImmutableObjectsWhenPossible", "5UsingImmutableObjectsWhenPossible\5UsingImmutableObjectsWhenPossible.csproj", "{E4557848-1235-42E3-95F4-FE7331FCBB3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6LeveragingSpecialCaseObjectsToRemoveNullChecks", "..\6LeveragingSpecialCaseObjectsToRemoveNullChecks\6LeveragingSpecialCaseObjectsToRemoveNullChecks.csproj", "{587D2B39-707D-4395-A6B2-4FA665084A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_7LeveragingSpecialCaseObjectsToRemoveNullChecks", "6LeveragingSpecialCaseObjectsToRemoveNullChecks\6_7LeveragingSpecialCaseObjectsToRemoveNullChecks.csproj", "{11CD6CE5-F349-412A-B42F-7D25426955D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8Increasing Flexibility by Avoiding Switch Statements", "8Increasing Flexibility by Avoiding Switch Statements\8Increasing Flexibility by Avoiding Switch Statements.csproj", "{E6DB470B-448C-469D-9DC3-265C68F6F0E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9TurningChainedBranchingIntoTheChainOfRuleObjects", "..\9TurningChainedBranchingIntoTheChainOfRuleObjects\9TurningChainedBranchingIntoTheChainOfRuleObjects.csproj", "{09DA398F-D077-4B99-AA5D-303A92D7C11C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Refactoring", "..\10Refactoring\10Refactoring.csproj", "{7EFB7706-8C2F-46FD-90F2-793DDD7871E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +41,22 @@ Global
 		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4557848-1235-42E3-95F4-FE7331FCBB3D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{587D2B39-707D-4395-A6B2-4FA665084A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{587D2B39-707D-4395-A6B2-4FA665084A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{587D2B39-707D-4395-A6B2-4FA665084A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{587D2B39-707D-4395-A6B2-4FA665084A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CD6CE5-F349-412A-B42F-7D25426955D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CD6CE5-F349-412A-B42F-7D25426955D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CD6CE5-F349-412A-B42F-7D25426955D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CD6CE5-F349-412A-B42F-7D25426955D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DB470B-448C-469D-9DC3-265C68F6F0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DB470B-448C-469D-9DC3-265C68F6F0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DB470B-448C-469D-9DC3-265C68F6F0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DB470B-448C-469D-9DC3-265C68F6F0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DA398F-D077-4B99-AA5D-303A92D7C11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DA398F-D077-4B99-AA5D-303A92D7C11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DA398F-D077-4B99-AA5D-303A92D7C11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DA398F-D077-4B99-AA5D-303A92D7C11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFB7706-8C2F-46FD-90F2-793DDD7871E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFB7706-8C2F-46FD-90F2-793DDD7871E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFB7706-8C2F-46FD-90F2-793DDD7871E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFB7706-8C2F-46FD-90F2-793DDD7871E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

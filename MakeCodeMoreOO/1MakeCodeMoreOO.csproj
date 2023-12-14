@@ -7,4 +7,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="3_UntanglingStructurefromOperationsOnBusinessData\**" />
+    <Compile Remove="5UsingImmutableObjectsWhenPossible\**" />
+    <Compile Remove="6LeveragingSpecialCaseObjectsToRemoveNullChecks\**" />
+    <Compile Remove="8Increasing Flexibility by Avoiding Switch Statements\**" />
+    <Compile Remove="FocusDomainLogicSequences\**" />
+    <EmbeddedResource Remove="3_UntanglingStructurefromOperationsOnBusinessData\**" />
+    <EmbeddedResource Remove="5UsingImmutableObjectsWhenPossible\**" />
+    <EmbeddedResource Remove="6LeveragingSpecialCaseObjectsToRemoveNullChecks\**" />
+    <EmbeddedResource Remove="8Increasing Flexibility by Avoiding Switch Statements\**" />
+    <EmbeddedResource Remove="FocusDomainLogicSequences\**" />
+    <None Remove="3_UntanglingStructurefromOperationsOnBusinessData\**" />
+    <None Remove="5UsingImmutableObjectsWhenPossible\**" />
+    <None Remove="6LeveragingSpecialCaseObjectsToRemoveNullChecks\**" />
+    <None Remove="8Increasing Flexibility by Avoiding Switch Statements\**" />
+    <None Remove="FocusDomainLogicSequences\**" />
+  </ItemGroup>
+
 </Project>

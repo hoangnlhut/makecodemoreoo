@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6LeveragingSpecialCaseObjectsToRemoveNullChecks.Common
+namespace _8IncreasingFlexibilitybyAvoidingSwitchStatements.Common
 {
     public class Option<T> : IEnumerable<T>
     {
         private IEnumerable<T> Content { get; }
-        private Option(IEnumerable<T> content)
+        private Option(IEnumerable<T> contentPara)
         {
-            Content = content;
+            Content = contentPara;
         }
         public static Option<T> Some(T value) => new Option<T>(new[] { value });
         
